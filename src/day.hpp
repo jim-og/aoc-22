@@ -11,6 +11,6 @@ public:
         std::cout << "Part B: " << B() << std::endl;
     };
 protected:
-    virtual std::string A() {return "";}
-    virtual std::string B() {return "";}
+    virtual std::string A() = 0;
+    virtual std::string B() = 0;
 };

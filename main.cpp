@@ -1,5 +1,6 @@
 #include "src/day01.hpp"
 #include "src/day02.hpp"
+#include "src/day03.hpp"
 using namespace std;
 
 int main(int argc, char *argv[])
@@ -16,6 +17,7 @@ int main(int argc, char *argv[])
     {
         case 1: { Day01().Run(); break; }
         case 2: { Day02().Run(); break; }
+        case 3: { Day03().Run(); break; }
         default:
         {
             cout << "Day not solved, yet" << endl;
